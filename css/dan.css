@@ -1,0 +1,52 @@
+.technology-skills{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills-icons {
+    height: 100px;
+    width: 90px;
+    padding-bottom: 20px;
+    animation-name: fadeInDown;
+}
+.skills-icons:hover {
+    height: 110px;
+    width: 100px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 5%;
+    margin-block: 2%;
+    height: 150px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 10px;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profilepic{
+    width: 60%;
+    box-shadow: 5px 5px 100px;
+}
+
+.helloname{
+    color: white;
+}
