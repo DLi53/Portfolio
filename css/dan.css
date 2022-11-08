@@ -13,6 +13,7 @@
 .skills-icons:hover {
     height: 110px;
     width: 100px;
+    box-shadow: 5px 5px 100px;
 }
 
 .skills-container{
